@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment4</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link href="src/index.css" />
+    <script src="src/logic.js"></script>
+</head>
+<body>
+    <div class="container-fluid my-3 " >
+        <div class="btn-group-vertical" role="group" aria-label="Button group">
+            <input type="button" class="btn btn-outline-dark" id="b11" onclick="change(1)" value="">
+            <input type="button" class="btn btn-outline-dark" id="b12" onclick="change(2)" value="">
+            <input type="button" class="btn btn-outline-dark" id="b13" onclick="change(3)" value="">
+        </div>
+        
+        <div class=" btn-group-vertical" role="group" aria-label="Button group">
+            <input type="button" class="btn  btn-outline-dark" id="b21" onclick="change(4)" value="" >
+            <input type="button" class="btn btn-outline-dark" id="b22" onclick="change(5)" value="">
+            <input type="button" class="btn btn-outline-dark" id="b23" onclick="change(6)" value="">
+        </div>
+        
+        <div class="btn-group-vertical" role="group" aria-label="Button group">
+            <input type="button" class="btn btn-outline-dark" id="b31" onclick="change(7)" value="" >
+            <input type="button" class="btn btn-outline-dark" id="b32" onclick="change(8)" value="">
+            <input type="button" class="btn btn-outline-dark" id="b33" onclick="change(9)" value="">
+        </div>
+        
+        <div>
+            Turn: <span id="turn">X</span>
+        </div>
+        <input type="button" class="btn btn-outline-primary" onclick=location.reload() value="Restart">
+        
+    </div>
+</body>
+</html>

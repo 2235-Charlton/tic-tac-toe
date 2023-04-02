@@ -1,0 +1,7 @@
+.btn, .btn-group-vertical, .btn-outline-dark {
+    border: 2px solid black;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    width: 100px;
+    height: 100px;
+  }
